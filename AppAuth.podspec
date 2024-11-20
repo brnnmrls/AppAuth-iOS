@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "AppAuth"
-  s.version      = "1.7.5"
+  s.version      = "1.7.6"
   s.summary      = "AppAuth for iOS and macOS is a client SDK for communicating with OAuth 2.0 and OpenID Connect providers."
 
   s.description  = <<-DESC
@@ -19,7 +19,7 @@ It follows the OAuth 2.0 for Native Apps best current practice
 
                    DESC
 
-  s.homepage     = "https://openid.github.io/AppAuth-iOS"
+  s.homepage     = "https://github.com/brnnmrls/AppAuth-iOS.git"
   s.license      = "Apache License, Version 2.0"
   s.authors      = { "William Denniss" => "wdenniss@google.com",
                      "Steven E Wright" => "stevewright@google.com",
@@ -38,7 +38,7 @@ It follows the OAuth 2.0 for Native Apps best current practice
   s.watchos.deployment_target = "2.0"
   s.tvos.deployment_target = "9.0"
 
-  s.source       = { :git => "https://github.com/openid/AppAuth-iOS.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/brnnmrls/AppAuth-iOS.git", :tag => s.version }
   s.requires_arc = true
 
   s.pod_target_xcconfig = {
