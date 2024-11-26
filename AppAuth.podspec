@@ -19,7 +19,7 @@ It follows the OAuth 2.0 for Native Apps best current practice
 
                    DESC
 
-  s.homepage     = "https://github.com/brnnmrls/AppAuth-iOS.git"
+  s.homepage     = "https://openid.github.io/AppAuth-iOS"
   s.license      = "Apache License, Version 2.0"
   s.authors      = { "William Denniss" => "wdenniss@google.com",
                      "Steven E Wright" => "stevewright@google.com",
